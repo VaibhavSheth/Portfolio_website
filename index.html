@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@simonwep/pickr/dist/themes/classic.min.css"/>
+    <link rel="stylesheet" href="assets/styles.css">
+     
+    
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+    <title>Vaibhav -Portfolio website</title>
+</head>
+<body>
+
+ <header class="profile container ">
+    <div class="pcikr">
+        <div class="pcr-button">
+        <button type="button" class="color-picker" role="button" aria-label="toggle color picker dialog">
+            <i class="ri-palette-line color-picker"></i>
+        </button>
+        </div>
+    </div>
+
+    <i class="ri-moon-line change-theme" id="theme-button"></i>
+    <!--<i class="ri-palette-line color-picker"></i>-->
+     <div class="profile__containter grid">
+         <div class="profile__data">
+             <div class="profile__border">
+                 <div class="profile__perfil">
+                     <img src="assets/imgs/IMG_2992.jpg" alt="my profile picture">
+                 </div>
+             </div>
+              <h2 class="profile_name">Vaibhav.B.Sheth</h2>
+              <h3 class="profile__profession">App & Web developer</h3>  
+
+                <ul class="profile_socials">
+                    <a href="https://www.instagram.com/vaibhav_sheth_/" target = "_blank" class="profile__sociallink">
+                        <i class="ri-instagram-line"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/vaibhav-sheth-b1959a199/" target = "_blank" class="profile__sociallink">
+                        <i class="ri-linkedin-box-line"></i>
+                    </a>
+                    <a href="https://github.com/VaibhavSheth" target = "_blank"  class="profile__sociallink">
+                        <i class="ri-github-line"></i>
+                    </a>
+                </ul>
+            </div>
+            <div class="profile__info grid">
+                <div class="profile_info_group">
+                    <h3 class="profile__info-number ">About Me</h3>
+                    <p class="profile__info_desc ">Myself, Vaibhav im a student studying at BIT</p>
+                </div>
+            </div>
+            <div class="profile__buttons">
+                <a href="assets\pdfs\Vaibhav's Resume.pdf" target = "_blank" class="button arr ">
+                    Download CV <i class="ri-download-line"></i>
+                </a>
+                <div class="proflie__buttons-small">
+                    <a href="#" target="_blank" class="button button__small button__gray">
+                        <i class="ri-mail-line"></i>
+                    </a> 
+                    
+                </div>
+            </div>
+        </div>
+<div class="inner-cursor"></div>
+<div class="outer-cursor"></div>
+ </header>
+ <main class="main">
+    <section class="filters container">
+        <ul class="filters__content">
+            <button class="filters__button filter-tab-active" data-target="#projects">
+                Projects
+            </button>
+            <button class="filters__button" data-target="#skills">
+                Skills
+            </button>
+        </ul>
+
+        <div class="filters__sections">
+            <!--MY PROJECTS lol -->
+            <div class="projects__content grid filters__active" data-content id="projects">
+                <article class="projects__card">
+                    <img src="assets/imgs/smtp.jpg" alt="" class="projects__img">
+
+                    <div class="projects__modal">
+                        <div>
+                            <span class="projects__subtitle">CNS & Python</span>
+                            <h3 class="projects__title">SMTP App</h3>
+                            <a href="https://github.com/VaibhavSheth/Chat_App.git" target="_blank" class="projects__button button button__small">
+                                <i class="ri-link"></i>
+                            </a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="projects__card">
+                    <img src="assets\imgs\20190520_blog_tips_for_polishing_up_your_design_portfolio_website.png" alt="default pic" class="projects__img">
+
+                    <div class="projects__modal">
+                        <div>
+                            <span class="projects__subtitle">Web</span>
+                            <h3 class="projects__title">Portfolio website</h3>
+                            <a href="#" class="projects__button button button__small">
+                                <i class="ri-link"></i>
+                            </a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="projects__card">
+                    <img src="assets\imgs\chat-app.jpg" alt="chat app default pic" class="projects__img">
+
+                    <div class="projects__modal">
+                        <div>
+                            <span class="projects__subtitle">App Development(Flutter)</span>
+                            <h3 class="projects__title">Chat App app</h3>
+                            <a href="https://github.com/VaibhavSheth/SMTP_application.git" target="_blank" class="projects__button button button__small">
+                                <i class="ri-link"></i>
+                            </a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="projects__card">
+                    <img src="assets\imgs\DBMS-1068x601.png" alt="dbms procotor ship magement image" class="projects__img">
+
+                    <div class="projects__modal">
+                        <div>
+                            <span class="projects__subtitle">DBMS</span>
+                            <h3 class="projects__title">Proctorship Management</h3>
+                            <a href="#" class="projects__button button button__small">
+                                <i class="ri-link"></i>
+                            </a>
+                        </div>
+                    </div>
+                </article>
+            </div>
+
+            <!--=============== SKILLS ===============-->
+            <div class="skills__content grid" data-content id="skills">
+                <div class="skills__area">
+                    <!--Titles of the Skills -->
+                    <h3 class="skills__title">Web Development</h3>
+                    <!--Skills -->
+                    <div class="skills__box">
+                        <div class="skills__group">
+                            <div class="skills__data">
+                                <i class="ri-checkbox-circle-line"></i>
+    
+                                <div>
+                                    <h3 class="skills__name">HTML</h3>
+                                    <span class="skills__level">Intermediate</span>
+                                </div>
+                            </div>
+    
+                            <div class="skills__data">
+                                <i class="ri-checkbox-circle-line"></i>
+    
+                                <div>
+                                    <h3 class="skills__name">CSS</h3>
+                                    <span class="skills__level">Advance</span>
+                                </div>
+                            </div>
+    
+                            <div class="skills__data">
+                                <i class="ri-checkbox-circle-line"></i>
+    
+                                <div>
+                                    <h3 class="skills__name">JavaScript</h3>
+                                    <span class="skills__level">Intermediate</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="skills__group">
+                            <div class="skills__data">
+                                <i class="ri-checkbox-circle-line"></i>
+    
+                                <div>
+                                    <h3 class="skills__name">React</h3>
+                                    <span class="skills__level">Basic(Learning)</span>
+                                </div>
+                            </div>
+                            <div class="skills__data">
+                                <i class="ri-checkbox-circle-line"></i>
+    
+                                <div>
+                                    <h3 class="skills__name">PHP</h3>
+                                    <span class="skills__level">Intermediate</span>
+                                </div>
+                            </div>
+    
+                            <div class="skills__data">
+                                <i class="ri-checkbox-circle-line"></i>
+    
+                                <div>
+                                    <h3 class="skills__name">Node Js</h3>
+                                    <span class="skills__level">Basic</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skills__area">
+                    <!--Titles of the Skills -->
+                    <h3 class="skills__title">App Development</h3>
+                    <!--Skills -->
+                    <div class="skills__box">
+                        <div class="skills__group">
+                            <div class="skills__data">
+                                <i class="ri-checkbox-circle-line"></i>
+                                <div>
+                                    <h3 class="skills__name">Java</h3>
+                                    <span class="skills__level">Intermediate</span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <i class="ri-checkbox-circle-line"></i>
+                                <div>
+                                    <h3 class="skills__name">Flutter</h3>
+                                    <span class="skills__level">Intermediate</span>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+            </div>
+                <div class="skills__area">
+                    <h3 class="skills__title">Programming Langugages</h3>
+
+                    <div class="skills__box">
+                        <div class="skills__group">
+                            <div class="skills__data">
+                                <i class="ri-checkbox-circle-line"></i>
+
+                                <div>
+                                    <h3 class="skills__name">Java</h3>
+                                    <span class="skills__level">Intermediate</span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <i class="ri-checkbox-circle-line"></i>
+
+                                <div>
+                                    <h3 class="skills__name">C</h3>
+                                    <span class="skills__level">Intermediate</span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <i class="ri-checkbox-circle-line"></i>
+
+                                <div>
+                                    <h3 class="skills__name">Python</h3>
+                                    <span class="skills__level">Intermediate</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+<div class="color__picker"></div>                
+<div id="color-indicator" class="color-indicator"></div>            
+<div id="color__picker"></div>
+        </div>
+    </section>
+
+</main>
+
+<footer class="footer container">
+    <span class="footer__copy">
+        &#169; Vaibhav Sheth. All rights reserved
+    </span>
+ </footer>
+ <script src="assets/js/scrollreveal.min.js"></script>
+ <script src="https://cdn.jsdelivr.net/npm/@simonwep/pickr/dist/pickr.min.js"></script>
+ <script src="assets/js/main.js"></script>
+</body>
+</html>
